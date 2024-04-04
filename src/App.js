@@ -8,7 +8,7 @@ Amplify.configure(config);
 function App({ signOut, user }) {
   return (
     <>
-      <h1>Hello {user.username}</h1>
+      <h1>Hello, our team is building an AI chatbot.... {user.username}</h1>
       <button onClick={signOut}>Sign out</button>
     </>
   );
